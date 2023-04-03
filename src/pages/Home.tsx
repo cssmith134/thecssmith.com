@@ -32,6 +32,15 @@ const Home = () => {
                             RECENT PROJECTS 
                         </h1>
                     </div>
+                    <div>
+                    <div className="flex auto max-h-fit justify-between gap-x-20 flex-col lg:flex-row">
+                        {/* placeholders for now */}
+                    <img src="/bio-photo1.png" width="400" height="400" alt=""  />
+                    <img src="/bio-photo1.png" width="400" height="400" alt=""  />
+                    <img src="/bio-photo1.png" width="400" height="400" alt=""  />
+                    <img src="/bio-photo1.png" width="400" height="400" alt=""  />
+                    </div>
+                    </div>
                 </section>
             </div> 
         </div>
