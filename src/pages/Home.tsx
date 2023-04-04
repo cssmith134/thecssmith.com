@@ -28,23 +28,62 @@ const Home = () => {
               Junior Web Developer
             </h3>
           </div>
+          
         </section>
       </div>
       <div className=" flex text-left flex-col lg:flex-row lg:space-x-32 w-full lg:w-11/12 mx-auto">
         <section className="lg:w-2/4 w-full flex flex-col my-10">
           <div className="mx-10 relative z-80 flex text-left text-3xl py-5">
-            <h1 className="text-xl text-blue-500 color: rgb(59 130 246); py-10">
-              RECENT PROJECTS
+            <h1 className="text-3xl text-blue-500 color: rgb(59 130 246); py-10">
+              SKILLS / LANGUAGES
             </h1>
           </div>
-          <div>
-            <div className="flex auto max-h-fit justify-between gap-x-20 flex-col lg:flex-row">
-              {/* placeholders for now */}
-              <img src="/bio-photo1.png" width="400" height="400" alt="" />
-              <img src="/bio-photo1.png" width="400" height="400" alt="" />
-              <img src="/bio-photo1.png" width="400" height="400" alt="" />
-              <img src="/bio-photo1.png" width="400" height="400" alt="" />
+          <div className="flex mx-1 flex-row justify-between">
+            <div>
+            <h3 className=" text-2xl pl-10 underline">
+                Front End
+            </h3>
+            <ul className="text-lg pl-10 py-10 ">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+                <li>Figma</li>
+                <li>Vite</li>
+                <li>Tailwind</li>
+            </ul>
             </div>
+         
+            <div>
+            <h3 className=" text-2xl pl-10 underline">
+                Back End
+            </h3>
+            <ul className=" text-lg pl-10 py-10">
+                <li>API's</li>
+                <li>Node</li>
+                <li>OOP & TDD</li>
+                <li>Express</li>
+                <li>Express Handlebars</li>
+                <li>SQL</li>
+                <li>MVC's</li>
+                <li>React</li>
+            </ul>
+            </div>
+            <div>
+                <h3 className="text-2xl pl-10 underline">
+                More
+                </h3>
+                <ul className="text-lg pl-10 py-10">
+                <li>PWA's</li>
+                <li>NoSQL</li>
+                <li>MERN</li>
+                <li>Docker</li>
+                <li>Nginx</li>
+                <li>Ruby on Rails</li>
+                </ul>
+            </div>
+          
           </div>
         </section>
       </div>
@@ -53,3 +92,4 @@ const Home = () => {
 };
 
 export default Home;
+
