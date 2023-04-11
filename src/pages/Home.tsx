@@ -32,7 +32,7 @@ const Home = () => {
       </div>
       <div className=" flex text-left flex-col lg:flex-row lg:space-x-32 w-full lg:w-11/12 mx-auto">
         <section className="lg:w-2/4 w-full flex flex-col my-10">
-          <div className="mx-10 relative z-80 flex text-left text-3xl py-5">
+          <div className="skills mx-10 relative z-80 flex text-left text-3xl py-5">
             <h1 className="text-1xl text-blue-500 color: rgb(59 130 246); py-10">
               SKILLS / LANGUAGES
             </h1>
