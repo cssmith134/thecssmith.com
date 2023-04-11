@@ -4,7 +4,7 @@ const Home = () => {
       <div className=" flex text-left flex-col lg:flex-row lg:space-x-32 w-full lg:w-11/12 mx-auto">
         <section className="lg:w-2/4 w-full flex flex-col my-10">
           <div>
-            <h1 className="mx-10 relative z-80 flex justify-left text-5xl text-blue-500 color: rgb(59 130 246); py-20 font-roboto">
+            <h1 className="mx-10 relative z-80 flex justify-left text-5xl text-blue-500 color: rgb(59 130 246); py-20 font-light font-roboto">
               Building Solutions
             </h1>
           </div>
@@ -28,22 +28,19 @@ const Home = () => {
               Junior Web Developer
             </h3>
           </div>
-          
         </section>
       </div>
       <div className=" flex text-left flex-col lg:flex-row lg:space-x-32 w-full lg:w-11/12 mx-auto">
         <section className="lg:w-2/4 w-full flex flex-col my-10">
           <div className="mx-10 relative z-80 flex text-left text-3xl py-5">
-            <h1 className="text-3xl text-blue-500 color: rgb(59 130 246); py-10">
+            <h1 className="text-1xl text-blue-500 color: rgb(59 130 246); py-10">
               SKILLS / LANGUAGES
             </h1>
           </div>
           <div className="flex mx-1 flex-row justify-between">
             <div>
-            <h3 className=" text-2xl pl-10 underline">
-                Front End
-            </h3>
-            <ul className="text-lg pl-10 py-10 ">
+              <h3 className=" text-2xl pl-10 underline">Front End</h3>
+              <ul className="text-lg pl-10 py-10 ">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Bootstrap</li>
@@ -52,14 +49,12 @@ const Home = () => {
                 <li>Figma</li>
                 <li>Vite</li>
                 <li>Tailwind</li>
-            </ul>
+              </ul>
             </div>
-         
+
             <div>
-            <h3 className=" text-2xl pl-10 underline">
-                Back End
-            </h3>
-            <ul className=" text-lg pl-10 py-10">
+              <h3 className=" text-2xl pl-10 underline">Back End</h3>
+              <ul className=" text-lg pl-10 py-10">
                 <li>API's</li>
                 <li>Node</li>
                 <li>OOP & TDD</li>
@@ -68,23 +63,20 @@ const Home = () => {
                 <li>SQL</li>
                 <li>MVC's</li>
                 <li>React</li>
-            </ul>
+              </ul>
             </div>
             <div>
-                <h3 className="text-2xl pl-10 underline">
-                More
-                </h3>
-                <ul className="text-lg pl-10 py-10">
+              <h3 className="text-2xl pl-10 underline">More</h3>
+              <ul className="text-lg pl-10 py-10">
                 <li>PWA's</li>
                 <li>NoSQL</li>
                 <li>MERN</li>
                 <li>Docker</li>
                 <li>Nginx</li>
                 <li>Ruby on Rails</li>
-                </ul>
+              </ul>
             </div>
-          
-          </div>
+          </div> 
         </section>
       </div>
     </div>
@@ -92,4 +84,3 @@ const Home = () => {
 };
 
 export default Home;
-
