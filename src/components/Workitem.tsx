@@ -1,17 +1,15 @@
 import React from 'react'
 import { Url } from 'url';
+import { WorkItemType } from "../pages/Work"
 
-type WorkItem = {
-    name: string;
-    image: string;
-  };
-
-function Workitem({name, image}: {name:string; image:string}){
+function Workitem(props: WorkItemType){
   return (
-   <div className=''>
-   <div style={{backgroundImage: `url(${image})`}} />
-   <h1>{name}</h1>
-   </div>
+    <a href={props.project_url}>
+        <div>
+            <img src={ props.image_url } width="400" height="400" />
+            <h1>{props.name}</h1>
+        </div>
+    </a>
   )
 }
 
