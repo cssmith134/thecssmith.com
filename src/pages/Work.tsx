@@ -11,26 +11,26 @@ export type WorkItemType = {
 const workItemsRaw = [
     {
         name: "Travellers",
+        image_url: "/travelers.png",
+        description: "Search a city, discover it's weather and current Covid-19 risk levels.",
+        project_url: "https://travelers.thecssmith.com/"
+    },
+    {
+        name: "Beer Belly",
         image_url: "/guitar-shop.png",
-        description: "things lalalalal this is a dscriprtion lalalalalalal",
+        description: "Search a city, discover it's weather and current Covid-19 risk levels. ",
         project_url: "https://thecssmith.com"
+    },
+    {
+        name: "YAAASSS",
+        image_url: "/YAASSS.png",
+        description: "Website for New York based rock band, YAAASS",
+        project_url: "https://www.instagram.com/69yaasss69/"
     },
     {
         name: "Travellers",
         image_url: "/guitar-shop.png",
-        description: "things lalalalal this is a dscriprtion lalalalalalal",
-        project_url: "https://thecssmith.com"
-    },
-    {
-        name: "Travellers",
-        image_url: "/guitar-shop.png",
-        description: "things lalalalal this is a dscriprtion lalalalalalal",
-        project_url: "https://thecssmith.com"
-    },
-    {
-        name: "Travellers",
-        image_url: "/guitar-shop.png",
-        description: "things lalalalal this is a dscriprtion lalalalalalal",
+        description: "things lalalalal this is a dscriprtion",
         project_url: "https://thecssmith.com"
     }
 ]
