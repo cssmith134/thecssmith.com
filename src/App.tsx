@@ -8,6 +8,7 @@ import Work from './pages/Work'
 import Header from './components/Header'
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import Experience from './pages/Experience';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/work' element={<Work />} />
+          <Route path='/experience' element={<Experience />} />
         </Routes>
         <Footer />
       </Router>
