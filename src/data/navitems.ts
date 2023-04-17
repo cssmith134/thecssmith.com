@@ -7,8 +7,5 @@ export default [
         name: "Work",
         url: "/work"
     },
-    {
-        name: "contact",
-        url: "/contact"
-    }
+  
 ]

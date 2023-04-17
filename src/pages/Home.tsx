@@ -39,7 +39,7 @@ const Home = () => {
           </div>
           <div className="flex mx-1 flex-row justify-between">
             <div>
-              <h3 className=" text-2xl pl-10 underline">Front End</h3>
+              <h3 className=" text-2xl pl-10 underline">Front end</h3>
               <ul className="text-lg pl-10 py-10 ">
                 <li>HTML</li>
                 <li>CSS</li>
@@ -53,13 +53,12 @@ const Home = () => {
             </div>
 
             <div>
-              <h3 className=" text-2xl pl-10 underline">Back End</h3>
+              <h3 className=" text-2xl pl-10 underline">Back end</h3>
               <ul className=" text-lg pl-10 py-10">
                 <li>API's</li>
                 <li>Node</li>
                 <li>OOP & TDD</li>
                 <li>Express</li>
-                <li>Express Handlebars</li>
                 <li>SQL</li>
                 <li>MVC's</li>
                 <li>React</li>
@@ -77,6 +76,13 @@ const Home = () => {
               </ul>
             </div>
           </div> 
+        </section>
+        <section className="py-20 lg:w-2/4 w-full flex flex-col my-10">
+          <div className="text-lg py-20 text-lg w-4/5 mx-10 text-left relative z-80"> 
+            <p>
+            With my full stack development skills, I am capable of building dynamic and responsive web applications from start to finish. I possess proficiency in a variety of programming languages, frameworks, and databases, and I am skilled in developing both front-end user interfaces and back-end server-side functionality. I am experienced in collaborating with team members and can adapt to a variety of development environments and workflows. My full stack projects demonstrate my ability to create high-quality software solutions that provide a seamless user experience and meet business requirements.
+            </p>
+          </div>
         </section>
       </div>
     </div>
