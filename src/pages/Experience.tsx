@@ -15,21 +15,21 @@ const ExperienceItemsRaw = [
     image_url: "/columbia-cert.png",
     description: "Gratuated top of my class with a 95.6% A+",
     height: "300px",
-    width: "500px"
+    width: "400px"
   },
   {
     name: "Technologies Intern at Tunecore",
     image_url: "/tune-core.png",
     description: "Interned at a music disribution company",
     height: "300px",
-    width: "500px"
+    width: "400px"
   },
   {
     name: "Sisters",
     image_url: "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_300,q_100,fl_lossy,dpr_2.0,c_fit,f_auto,h_300/tyyfjk08tahiypilxxac",
     description:"Bartender at brooklyn based cocktail bar with over 8 years of experience.",
     height: "300px",
-    width: "500px"
+    width: "400px"
   },
 ];
 

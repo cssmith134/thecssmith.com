@@ -17,7 +17,7 @@ const workItemsRaw = [
     description: "Track local weather and Covid-19 risk levels.",
     project_url: "https://travelers.thecssmith.com/",
     height: "300px",
-    width: "500px"
+    width: "450px"
   },
   {
     name: "Beer Belly",
@@ -25,15 +25,15 @@ const workItemsRaw = [
     description: "Find breweries for your next destination",
     project_url: "https://github.com/cssmith134/beerbelly",
     height: "300px",
-    width: "500px"
+    width: "450px"
   },
   {
     name: "YAASSS",
     image_url: "/YAASSS.png",
-    description: "Website for New York based rock band, YAAASS",
+    description: "Website for New York based rock band, YAAASS (in progress)",
     project_url: "https://www.instagram.com/69yaasss69/",
     height: "300px",
-    width: "500px"
+    width: "450px"
   },
 ];
 
