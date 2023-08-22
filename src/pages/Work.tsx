@@ -27,14 +27,23 @@ const workItemsRaw = [
     height: "300px",
     width: "450px"
   },
+  // {
+  //   name: "YAASSS",
+  //   image_url: "/YAASSS.png",
+  //   description: "Website for New York based rock band, YAAASS (in progress)",
+  //   project_url: "https://www.instagram.com/69yaasss69/",
+  //   height: "300px",
+  //   width: "450px"
+  // },
   {
-    name: "YAASSS",
-    image_url: "/YAASSS.png",
-    description: "Website for New York based rock band, YAAASS (in progress)",
-    project_url: "https://www.instagram.com/69yaasss69/",
+    name: "High Voltage",
+    image_url: "/voltage.png",
+    description: "Guitar Shop is a tool for the owners of a small music store to keep track of their inventory, and showcase their products.",
+    project_url: "https://github.com/hannahhan153/Guitar-Shop/",
     height: "300px",
     width: "450px"
   },
+  
 ];
 
 const workItemGenerator = (work_items_list: WorkItemType[]) => {
